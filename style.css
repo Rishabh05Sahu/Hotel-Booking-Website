@@ -1,0 +1,567 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("./Banner/Banner.png");
+  background-repeat: no-repeat;
+}
+
+/* Banner Section */
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Nav Bar*/
+nav {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.menu {
+  padding: 38px 27px 38px 27px;
+  background-color: #627131;
+}
+
+.menu:hover {
+  background-color: #eeb71d;
+}
+
+.nav-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+}
+
+/* Hero Container */
+.hero-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  margin-top: 90px;
+}
+
+.hero-text {
+  color: white;
+  padding: 50px;
+}
+
+.tagline {
+  font-size: 18px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+.banner-heading {
+  font-size: 62px;
+  text-align: center;
+  font-family: "Spectral", serif;
+}
+
+.top-line {
+  width: 80px;
+  transform: rotate(90deg);
+  border: 2px solid white;
+  margin: auto;
+}
+
+.bottom-line {
+  width: 40px;
+  transform: rotate(90deg);
+  border: 2px solid white;
+  margin: auto;
+}
+
+/* Booking Container*/
+.booking-container {
+  display: flex;
+  margin: 85px auto;
+  background-color: white;
+  width: fit-content;
+}
+
+/* Dropdown Container */
+.drop-down-container-wrapper {
+  padding: 20px 0 20px 0;
+}
+
+/* Dropdowns */
+.drop-down-container {
+  background-color: white;
+  display: inline-block;
+  padding: 10px 10px 20px 10px;
+  border-right: 1px solid #707070;
+  width: 195px;
+}
+
+.drop-down-label {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+.drop-down-option {
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.drop-down-line {
+  color: #5c5c5c;
+  width: 20px;
+  margin: 9px 0 14px 0;
+}
+
+/* Book your stay Button */
+.book-your-stay {
+  background-color: #454545;
+  text-align: center;
+  padding: 61px 17px 60px 18px;
+}
+
+.btn-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  text-decoration: none;
+}
+
+/* Whatsapp Button */
+.whatsapp {
+  background-color: #627131;
+  padding: 40px 60px 40px 60px;
+}
+
+/* 2nd Section */
+
+/* Section Heading */
+.section-heading-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+}
+
+.left-line,
+.right-line {
+  height: 100px;
+  transform: rotate(90deg);
+}
+
+.section-heading {
+  font-family: "Playfair Display", serif;
+  font-size: 42px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Card Wrapper */
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+/* Yellow Box */
+.yellow-box {
+  color: white;
+  background-color: #eeb71d;
+  padding: 11px 23px 10px 24px;
+  width: fit-content;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+
+span {
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* Card */
+.card {
+  width: 25%;
+}
+
+.card-image {
+  background-image: url("./IMG01/IMG01.png");
+  height: 300px;
+}
+
+.card-text-wrapper {
+  padding: 30px 10px 40px 10px;
+}
+
+.card-heading {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+  color: #5c5c5c;
+}
+
+.card-text {
+  margin-bottom: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.card-link {
+  color: #627131;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+/* 3rd Section */
+
+.third-section {
+  background-color: #faf7f2;
+}
+
+.paragraph-text {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin: auto 135px 0px 135px;
+}
+
+.fa-cloud,
+.fa-clock,
+.fa-temperature-three-quarters {
+  font-size: 50px;
+  margin-bottom: 40px;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+  margin-top: 60px;
+}
+
+.icon {
+  border: 1px solid rgb(7, 7, 7);
+  padding: 34px 61px 20px 61px;
+  text-align: center;
+}
+
+/* 4th section */
+.room-image {
+  background-image: url("./IMG01/IMG01.png");
+  height: 250px;
+  background-repeat: no-repeat;
+}
+
+.room-card {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+ 
+}
+
+.room-image-card {
+  width: 370px;
+  margin-bottom: 146px;
+  border: 1px solid #dddddd;
+  margin-top: 150px;
+}
+
+.room-text {
+  font-size: 22px;
+  font-family: "Playfair Display", serif;
+  padding: 16px 45px 19px 20px;
+}
+.hover-text{
+  font-size: 14px;
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  color: #5c5c5c;
+  margin-bottom: 36px;
+  display: none;
+}
+.hover-btn{
+  display: flex;
+  /* border: 1px solid black; */
+  display: none;
+}
+
+.book-now{
+  font-size: 16px;
+  font-family: "Work Sans", sans-serif;
+  padding: 30px 45px 30px 48px;
+  text-transform: uppercase;
+  background-color: #627131;
+  color: white;
+}
+.details{
+  font-size: 16px;
+  font-family: "Work Sans", sans-serif;
+  text-transform: uppercase;
+  padding: 30px 60px 30px 58px;
+  border-top: .5px solid #5C5C5C;
+}
+.room-image-card:hover .hover-text{
+  display: block;
+}
+.room-image-card:hover .hover-btn{
+  display: flex;
+}
+.room-image-card:hover{
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.arrow-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 95px;
+}
+
+.left-arrow-button {
+  background-image: url("./arrow/Component\ 4\ –\ 1.png");
+  height: 70px;
+  width: 70px;
+  background-repeat: no-repeat;
+}
+.left-arrow-button:hover {
+  background-image: url("./black/Component\ 4\ –\ 1.png");
+}
+
+.right-arrow-button {
+  background-image: url("./arrow/Component\ 4\ –\ 1.png");
+  height: 70px;
+  width: 70px;
+  background-repeat: no-repeat;
+  transform: rotate(180deg);
+}
+.right-arrow-button:hover {
+  background-image: url("./black/Component\ 4\ –\ 1.png");
+}
+
+/* 5 th section with grid */
+.grid-container {
+  display: grid;
+  grid-template-rows: 550px 740px;
+  grid-template-columns: 405px 530px 370px;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+
+.fifth-section-text-wrapper {
+  text-align: right;
+}
+
+.fifth-section-heading {
+  font-size: 22px;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 23px;
+}
+
+.fifth-section-main-heading {
+  font-size: 36px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  margin-bottom: 19px;
+}
+
+.fifth-section-para {
+  margin-left: 130px;
+  font-family: "Work Sans", sans-serif;
+  color: #707070;
+  margin-bottom: 29px;
+}
+
+.fifth-section-text {
+  font-size: 22px;
+  font-family: "Playfair Display", serif;
+  color: #707070;
+  line-height: 45px;
+}
+
+.fifth-img-one {
+  background-image: url("./Sider-001/Sider-001.png");
+  grid-column: span 2;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.up-arrow {
+  transform: rotate(90deg);
+  width: fit-content;
+  color: black;
+}
+
+.down-arrow {
+  transform: rotate(-90deg);
+  width: fit-content;
+}
+
+.house-img {
+  background-image: url("./image-1000/image-1000.png");
+  grid-column: span 2;
+  background-repeat: no-repeat;
+  margin-left: 140px;
+  margin-top: 70px;
+  background-size: cover;
+}
+
+.contact-us {
+  background-color: #627131;
+  margin-top: 70px;
+}
+
+.contact-us-heading {
+  color: white;
+  font-size: 23px;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  margin: 39px 0 20px 0;
+}
+
+.contact-us-line {
+  width: 80px;
+  margin-left: 145px;
+}
+
+.contact-us-text {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  text-align: center;
+  line-height: 35px;
+  margin: 30px 20px 20px 20px;
+}
+
+.form-box {
+  width: 330px;
+  height: 40px;
+  margin: 0px 20px 3px 20px;
+  font-size: 20px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+/* 6th section  */
+.follow-up-section {
+  background-color: #454545;
+}
+
+.follow-up-form {
+  display: flex;
+  height: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe {
+  color: white;
+  background-color: #454e28;
+  padding: 17px 40px;
+  text-transform: uppercase;
+}
+/* footer */
+
+.footer-background-img {
+  background-image: url("./footer/footer.png");
+  position: relative;
+}
+.diamond{
+  background-image: url("./blackup/Component\ 5\ –\ 2.png");
+  height: 56px;
+  width: 56px;
+  position: absolute;
+  margin-left: 1300px;
+  margin-top: -30px; 
+  
+}
+.diamond:hover{
+  background-image: url("./diamond/Component\ 5\ –\ 2.png");
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  margin-left: 1289px;
+  margin-top: -38px; 
+}
+
+.footer-section {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+.footer-heading {
+  font-size: 14px;
+  font-family: "Work Sans", sans-serif;
+  color: white;
+  margin-top: 50px;
+  text-transform: uppercase;
+}
+.accommodation-text {
+  font-size: 14px;
+  font-family: "Work Sans", sans-serif;
+  color: #bbbbbb;
+}
+.footer-contact-us {
+  display: flex;
+  gap: 30px;
+  margin-top: 60px;
+  margin-left: 135px;
+}
+.footer-img {
+  height: 20px;
+  width: 20px;
+}
+.address-text {
+  color: white;
+  font-size: 14px;
+  font-family: "Work Sans", sans-serif;
+  line-height: 25px;
+}
+.footer-last {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 135px;
+  margin-top: 30px;
+}
+.footer-email-img {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.footer-email-text {
+  color: white;
+}
+.social-media {
+  display: flex;
+  gap: 28px;
+  margin-right: 145px;
+  margin-bottom: 112px;
+}
+.reserved-rights {
+  background-color: #454545;
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 135px 32px 135px;
+}
+.terms,.by {
+  color: white;
+  font-size: 14px;
+  font-family: "Work Sans", sans-serif;
+}
